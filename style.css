@@ -165,3 +165,79 @@ header button {
     scroll-padding-left: 400px;
     align-items: right;
 }
+
+#house {
+  width: 600px;
+  border-radius: 10px;
+  border: solid;
+}
+
+#led {
+  width: 300px;
+  padding-left: 40px;
+  border-radius: 8px;
+}
+
+#calc {
+  width: 200px;
+  padding-left: 150px;
+}
+
+#puzzle {
+width: 350px;
+padding-left: 20px;
+}
+
+#frog {
+  width: 250px;
+  padding-left: 60px;
+  border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav {
+justify-content: flex-end;
+padding-top: 15px;
+margin-right: 20px;
+float: right;
+font-size: 20px;
+}
+footer nav ul {
+    list-style: none;
+  }
+  
+  footer nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: red;
+    font-weight: 800;
+  }
+
+
+
+nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+    padding-right: 100px;
+}
