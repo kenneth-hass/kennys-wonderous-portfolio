@@ -24,83 +24,53 @@
         </ul>
     </nav>
 </header>
-
+<!--header with navigation links styled  and spaced to right on the nav bar-->
 
 <div class="container">
-    <img src="assets/images/banner.jpg" alt="purple banner" style="width:100%;">
+    <img class ="banner" src="./assets/images/banner.jpg" alt="purple banner" style="width:100%;">
     <div class="bottom-left"></div>
     <div class="top-left"></div>
     <div class="top-right"></div>
-    <div class="bottom-right">Cool Subtitle Here!</div>
+    <div class="bottom-right">Have A Good Day!</div>
     <div class="centered"></div>
   </div>
-
+<!-- container to put text on the banner-->
 
 <main>
-    <article>
-            <!-- about me toneeds to be to the left of the info -->
-        <h1>About Me</h1>
-         <p>My name is Kenneth Hasson! Im 19 years old, about to turn 20 in June and I graduated from Northeast Metro Tech High School with my major in Engineering and Architecture. Although I've been struggling with some of the coding in this class, I've had a lot of fun as well learning something new and have great support from my lovely girlfriend!
+    <section id="about-me" class="about-me">
+        <h3>About Me</h3>
+        <p>My name is Kenneth Hasson! Im 19 years old, I'll be turning 20 in June. Im from Massachusettes and  I graduated from Northeast Metro Tech High School with my major in Engineering and Architecture. Although I've been struggling with some of the coding in this class, I've had a lot of fun as well learning something new and challenging with amazing support from my lovely girlfriend!
         </p>
-    </article>
+         </section>
 
+         <section id="work" class="about-me">
+            <h3>Work</h3>
+            <div>
+                <img id= "house" class="largeImg" src="./assets/images/greenhouse.jpg"/>
 
-    <article>
-        <h2>Work</h2>
-    <div>
-        <img class="house" src="./assets/images/greenhouse.jpg"/>
-        <img class="led" src="./assets/images/ledlights.jpg" />
-        <img class="calculator" src="./assets/images/calculator.jpg" />
-        <img class="puzzle" src="./assets/images/puzzle.jpg" />
-        <img class="frog" src="./assets/images/frog.jpg" />
-    </div>
-    </article>
-
-
-   <article>
-    <h3>Contact Me</h3>
-    <p>
-       <u>781-600-4120 kennethhass1014@gmail.com</u>
-    </p>
-   </article>
-
-
-
-
-</main>
-
-
-<footer> wooooo
-
-
- <!-- <table width="100%">  
-    add a flexbox(?p)
-<tbody>
- 
-
-
-</tbody>
-
-
-<nav>
-    <tr>
-        <td scope="col">555-5555-5555 </td>
-        <td scope="col">Github</td>
-        <td scope="col">linkedin</td>
-        <td scope="col">Email</td>
-
-
-</tr>
-<nav>
-
-
-</table>
-
-
-</footer>
-
-
-</body>
-
-
-</html>
+                <img id="led" class="smallImg" src="./assets/images/ledlights.jpg" />
+                
+                <img id="calc" class="smallImg" src="./assets/images/calculator.jpg" />
+               
+                <img id="puzzle" class="smallImg" src="./assets/images/puzzle.jpg" />
+               
+                <img id="frog" class="smallImg" src="./assets/images/frog.jpg" />
+                
+            </div>  
+         </section>
+<!--container to hold 4 equally spaced images and one above it-->
+         <footer id="contact-me" class="about-me" >
+            <h3>Contact Me</h3>
+        <nav>
+        <ul>
+            <li>781-600-4120</li>
+            <li>kennethhass1014@gmail.com</li>
+            <li>
+                <a href="https://github.com/kenneth-hass">Github</a>
+            </li>
+        </ul>
+        </nav>
+        </footer>
+        <!--footer to hold all my contact information-->
+        </body>
+        </html>
