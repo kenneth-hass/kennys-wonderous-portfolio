@@ -1,0 +1,147 @@
+:root {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+display: flex;
+justify-content: flex-end;
+background-color: aqua;
+color: black;
+}
+
+header nav {
+justify-content: flex-end;
+padding-top: 15px;
+margin-right: 20px;
+float: right;
+font-size: 20px;
+}
+
+figure {
+display: flex;
+justify-content: center;
+align-items: center;
+object-fit: fill;
+}
+
+.about-me p {
+  width: 70%;
+  /* margin-left: 400px;
+  margin-right: 250px; */
+}
+
+.about-me h3 {
+  margin-left: 0px;
+  font-size: 30px;
+  text-align: left;
+  padding: 10px;
+  width: 20%;
+  border-right: 5px solid black;
+}
+
+footer h3 {
+  font-size: 30px;
+}
+
+.about-me {
+  display: flex;
+  width: 80%;
+}
+/* .about-me img {
+  display: flex;
+  height: 200px;
+  width: 300px;
+  flex-wrap: wrap;
+  padding: 10px;
+} */
+
+.bigPicture {
+width: 80%;
+max-height: 250px;
+object-fit: cover;
+margin: 40px;
+}
+
+.smallPicture {
+width: 40%;
+object-fit: cover;
+margin: 25px 25px 25px 25px;
+}
+
+section p {
+  width: 80%;
+}
+
+header nav ul {
+list-style: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/* article {
+  display: flex;
+} */
+
+/* article img {
+  align-items: first baseline;
+  width: 50%;
+  height: 250px;
+  width: 350px;
+  margin-left: 250px;
+  margin-right: 500px;
+} */
+
+/* .container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 350px; 
+} */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aqua; */
+  color: black;
+}
+
+footer nav {
+  justify-content: flex-end;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-size: 20px;
+}
+
+footer nav ul {
+  list-style: none;
+}
+
+footer nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}

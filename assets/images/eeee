@@ -1,0 +1,38 @@
+<!-- body to containt two sections. One with about me heading and short
+paragraph and another section with 5 total images equally spaced in a 
+container. One largwr than the other four. Also the headings must be separated
+from the about me and project sections by a border in between -->
+        <!-- this is the about me section within the main element that will contain the about me paragraph and header separated by 
+        a vertical border -->
+    <section id="about-me" class="about-me">
+    <h3>About Me</h3>
+    <p>My name is Kenneth Hasson! Im 19 years old, about to turn 20 in June and I graduated from Northeast Metro Tech High School with my major in Engineering and Architecture. Although I've been struggling with some of the coding in this class, I've had a lot of fun as well learning something new and have great support from my lovely girlfriend!
+    </p>
+     </section>
+    <!-- this will be the container that holds the 5 pictures of projects as well as projects heading separated by a vertical border. 5 cards total. 1 large at top and two columns with two each -->
+    <section id="work" class="about-me">
+        <h3>Work</h3>
+        <div>
+            <img class="house" src="./assets/images/greenhouse.jpg"/>
+            <img class="led" src="./assets/images/ledlights.jpg" />
+            <img class="calculator" src="./assets/images/calculator.jpg" />
+            <img class="puzzle" src="./assets/images/puzzle.jpg" />
+            <img class="frog" src="./assets/images/frog.jpg" />
+        </div>  
+     </section>
+<!-- this is the footer that will contain a contact me heading a wellas as a set of nav list items
+for my phone, emai and github url. the heading will be separated by a vertical border-->
+<footer id="contact-me" class="about-me" >
+    <h3>Contact Me</h3>
+<nav>
+<ul>
+    <li>781-600-4120</li>
+    <li>kennethhass1014@gmail.com</li>
+    <li>
+        <a href="https://github.com/kenneth-hass">Github</a>
+    </li>
+</ul>
+</nav>
+</footer>
+</body>
+</html>
