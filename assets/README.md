@@ -10,13 +10,13 @@
 ## Usage
 
 At the top of my page there are buttons to the right, they are only for show but the background color changes when you hover over it
-![alt text](assets/images/portfolio1.jpg)
+ ![alt text](assets/images/portfolio1.jpg)
 
 These are the sections that the buttons should lead to
-![alt text](assets/images/portfolio2.jpg)
+ ![alt text](assets/images/portfolio2.jpg)
 
 These are the links you can click on to see more about me or get in contact with me
-![alt text](assets/images/portfolio3.jpg)
+ ![alt text](assets/images/portfolio3.jpg)
 
 ## Credits
 
