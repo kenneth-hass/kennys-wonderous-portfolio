@@ -21,6 +21,7 @@ These are the links you can click on to see more about me or get in contact with
 ## Credits
 
 Samuel Wlodawski was a great help at explaining some of the CSS functions and where they worked on the webpage
+[Github](https://github.com/swlodawski)
 
 ## License
 
